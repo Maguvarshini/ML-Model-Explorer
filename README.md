@@ -1,16 +1,16 @@
-# ML Model Explorer 🧠📊
+# ML Model Explorer 
 
 ## Overview
 **ML Model Explorer** is an interactive web application built using **Streamlit** that allows users to explore, compare, and understand the behavior of different **machine learning classification models**.  
 The app provides an intuitive interface to experiment with popular datasets, tune model hyperparameters in real time, and visualize model performance using multiple evaluation metrics.
 
-🔗 **Live Demo:** http://localhost:8501
+ **Live Demo:** http://localhost:8501
 
 ---
 
-## 🚀 Features
+## Features
 
-### 📂 Dataset Selection
+### Dataset Selection
 Choose from classic machine learning datasets:
 - Iris Dataset
 - Breast Cancer Dataset
@@ -18,7 +18,7 @@ Choose from classic machine learning datasets:
 
 ---
 
-### 🤖 Supported Classifiers
+### Supported Classifiers
 The application supports multiple popular classification algorithms:
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
@@ -30,7 +30,7 @@ The application supports multiple popular classification algorithms:
 
 ---
 
-### 🎛 Interactive Model Tuning
+### Interactive Model Tuning
 - Real-time hyperparameter tuning using Streamlit sliders
 - Classifier-specific parameter controls:
   - **Logistic Regression:** Regularization parameter (C)
@@ -42,21 +42,21 @@ The application supports multiple popular classification algorithms:
 
 ---
 
-### 📈 Performance Analytics
+### Performance Analytics
 Comprehensive evaluation metrics to analyze model performance:
 - Accuracy Score
 - Precision Score
 - Recall Score
 - F1 Score
 
-#### 📊 Visualizations
+#### Visualizations
 - Interactive Confusion Matrix
 - Detailed Classification Report
 - ROC Curve (for binary classification problems)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Frontend & App Framework:** Streamlit  
 - **Machine Learning:** scikit-learn  
 - **Data Handling:** pandas, numpy  
@@ -64,7 +64,7 @@ Comprehensive evaluation metrics to analyze model performance:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 Make sure you have the following libraries installed:
 ```txt
 numpy
@@ -73,3 +73,10 @@ matplotlib
 seaborn
 scikit-learn
 streamlit
+## Usage
+
+1. Select a dataset from the sidebar dropdown menu.
+2. Choose a machine learning classifier.
+3. Adjust the model hyperparameters using the interactive sliders.
+4. Click the **"Predict"** button to train and evaluate the model.
+5. Analyze the model performance using the displayed metrics and visualizations.
