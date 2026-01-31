@@ -73,10 +73,13 @@ matplotlib
 seaborn
 scikit-learn
 streamlit
-## Usage
+```
+---
 
+## Usage
 1. Select a dataset from the sidebar dropdown menu.
 2. Choose a machine learning classifier.
 3. Adjust the model hyperparameters using the interactive sliders.
 4. Click the **"Predict"** button to train and evaluate the model.
 5. Analyze the model performance using the displayed metrics and visualizations.
+
