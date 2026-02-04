@@ -4,7 +4,7 @@
 **ML Model Explorer** is an interactive web application built using **Streamlit** that allows users to explore, compare, and understand the behavior of different **machine learning classification models**.  
 The app provides an intuitive interface to experiment with popular datasets, tune model hyperparameters in real time, and visualize model performance using multiple evaluation metrics.
 
- **For Live Demo:** [click here](http://localhost:8501)
+ **For Live Demo:** [click here](http://localhost:8501/)
 
 ---
 
@@ -70,6 +70,7 @@ Comprehensive evaluation metrics to analyze model performance:
 3. Adjust the model hyperparameters using the interactive sliders.
 4. Click the **"Predict"** button to train and evaluate the model.
 5. Analyze the model performance using the displayed metrics and visualizations.
+
 
 
 
